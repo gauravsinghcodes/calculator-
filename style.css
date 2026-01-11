@@ -56,5 +56,34 @@ form input.operator{
 }
 
 
+@media (max-width: 600px) {
+
+    .calculator {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .calculator form input {
+        width: 55px;
+        height: 55px;
+        font-size: 18px;
+        margin: 6px;
+    }
+
+    form .display input {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    form input.equal {
+        width: 120px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+
 
 
