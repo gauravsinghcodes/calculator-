@@ -20,6 +20,15 @@
     border-radius: 10px;
 }
 
+.calc-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
 .calculator form input {
     border: 0;
     outline: 0;
@@ -63,6 +72,11 @@ form input.operator{
         border-radius: 12px;
     }
 
+    .calc-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
     .calculator form input {
         width: 55px;
         height: 55px;
